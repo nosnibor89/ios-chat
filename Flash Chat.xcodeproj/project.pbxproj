@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55929AA720ED03BF00B5089F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55929AA620ED03BF00B5089F /* GoogleService-Info.plist */; };
+		55B96A9E20ED182A00A55277 /* AppSegues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B96A9D20ED182A00A55277 /* AppSegues.swift */; };
 		6321A9C31B94EBA10053D2E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6321A9C21B94EBA10053D2E7 /* Images.xcassets */; };
 		6321A9E21B94EBE70053D2E7 /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6321A9DB1B94EBE70053D2E7 /* CustomMessageCell.swift */; };
 		6321A9E51B94EBE70053D2E7 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6321A9DE1B94EBE70053D2E7 /* MessageCell.xib */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		55929AA620ED03BF00B5089F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55B96A9D20ED182A00A55277 /* AppSegues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSegues.swift; sourceTree = "<group>"; };
 		5D75D2AAAB79F229196EBD3F /* Pods-Flash Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flash Chat/Pods-Flash Chat.release.xcconfig"; sourceTree = "<group>"; };
 		62A269AC3ED53CAB5037BDD5 /* Pods_Flash_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6321A9B61B94EBA10053D2E7 /* Flash Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				63E28B2C1B9A337600FBF6E0 /* LogInViewController.swift */,
 				63E28B2D1B9A337600FBF6E0 /* RegisterViewController.swift */,
 				63E28B2E1B9A337600FBF6E0 /* WelcomeViewController.swift */,
+				55B96A9D20ED182A00A55277 /* AppSegues.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				63E28B311B9A337600FBF6E0 /* LogInViewController.swift in Sources */,
 				63E28B2F1B9A337600FBF6E0 /* AppDelegate.swift in Sources */,
 				63E28B301B9A337600FBF6E0 /* ChatViewController.swift in Sources */,
+				55B96A9E20ED182A00A55277 /* AppSegues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
