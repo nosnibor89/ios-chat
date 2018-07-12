@@ -9,6 +9,7 @@ target 'Flash Chat' do
   pod 'Firebase'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  pod 'GoogleSignIn'
   pod 'SVProgressHUD'
   pod 'ChameleonFramework'
 
