@@ -199,9 +199,6 @@ class ChatViewController: UIViewController, UITextFieldDelegate, UITableViewDele
         
         //TODO: Log out the user and send them back to WelcomeViewController
         do {
-            
-            
-            
             try Auth.auth().signOut()
             // For testing, logout from Google too
             GIDSignIn.sharedInstance().signOut()
