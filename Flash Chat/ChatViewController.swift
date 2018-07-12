@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import GoogleSignIn
 import ChameleonFramework
 
 class ChatViewController: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource {
@@ -70,7 +71,9 @@ class ChatViewController: UIViewController, UITextFieldDelegate, UITableViewDele
             cell.messageBackground.backgroundColor = UIColor.flatSkyBlue()
         }else{
             cell.avatarImageView.backgroundColor = UIColor.flatWatermelon()
-            cell.messageBackground.backgroundColor = UIColor.flatGray()        }
+            cell.messageBackground.backgroundColor = UIColor.flatGray()
+            
+        }
         
         //ALT
 //        cell.avatarImageView.image = UIImage(named: "egg")
@@ -196,7 +199,13 @@ class ChatViewController: UIViewController, UITextFieldDelegate, UITableViewDele
         
         //TODO: Log out the user and send them back to WelcomeViewController
         do {
+            
+            
+            
             try Auth.auth().signOut()
+            // For testing, logout from Google too
+            GIDSignIn.sharedInstance().signOut()
+            
             navigationController?.popToRootViewController(animated: true)
         } catch  {
             print("error: , problem signing out.")
